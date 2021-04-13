@@ -25,8 +25,6 @@ function renderizarFilmes (filmes){
 
 function comprar(dados, id){
 
-    console.log(dados);
-    console.log(id);
     const nome = prompt("Qual é o seu nome?");
     const assentos = parseInt(prompt("Qual é a quantidade de assentos?"));
 
